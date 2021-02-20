@@ -7,9 +7,24 @@ export const colors = {
     lightHl: "#888",
     text: "#fff",
     textSec: "#aaa",
+    icon: '#605cb8'
 }
 
 export const gs = StyleSheet.create({
+
+    sectionContainer : {
+        paddingVertical: 0,
+        paddingHorizontal: 2,
+        marginBottom: 8,
+        backgroundColor: colors.lightBg,
+    },
+
+    sectionTitle: {
+        fontWeight:"700",
+        color: colors.text,
+        fontSize:15,
+        paddingHorizontal: 6,
+    },
 
     rowCenter: {
         flexDirection: "row",
@@ -24,5 +39,16 @@ export const gs = StyleSheet.create({
     center: {
         alignItems:'center',
         justifyContent:'center'
-    }
+    },
+
+    title: {
+        color: colors.text,
+        fontSize:30,
+    },
+
+    divider: {
+        borderBottomColor:'#444',
+        borderBottomWidth: 2,
+        marginVertical:10,
+    },
 })

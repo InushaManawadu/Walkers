@@ -7,7 +7,8 @@ export const colors = {
     lightHl: "#888",
     text: "#fff",
     textSec: "#aaa",
-    icon: '#605cb8'
+    icon: '#605cb8',
+    sunny:'#FA8607',
 }
 
 export const gs = StyleSheet.create({

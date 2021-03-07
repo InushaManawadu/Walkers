@@ -14,20 +14,17 @@ export default function Stats() {
     return (
         <View style={styles.container}>
             <View style={styles.weatherContainer}>
-                <Feather name="sun" size={24} color={colors.sunny} />
-                
+                <Feather name="sun" size={24} color={colors.sunny} />                
                 <View style={{marginLeft: 10}}>
-                    <Text style={styles.title}>27˚</Text>
-                    <Text style={styles.subTitle}>Sunny</Text>
+                    <Text style={styles.title}>29˚</Text>
+                    <Text style={styles.subTitle}>Warm</Text>
                 </View>
             </View>
-
             <View style={{marginLeft:10}}>
                 <Text style={styles.title}>
                     8.2
                     <Text style={[styles.subTitle, {paddingLeft: 8}]}>&nbsp;&nbsp; +4k Votes</Text>
                 </Text>
-
                 <View style={gs.rowCenter}>
                     {starColors.map((color,index) => {
                         return(
@@ -36,7 +33,6 @@ export default function Stats() {
                     })}
                 </View>
             </View>
-
             <View style={styles.circlesContainer}>
                 <Cirlce style={{ backgroundColor: "#999",marginLeft:-10, zIndex:3}} />
                 <Cirlce style={{ backgroundColor: "#888",marginLeft:-10, zIndex:2}} />
